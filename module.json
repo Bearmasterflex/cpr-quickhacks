@@ -1,0 +1,20 @@
+{
+  "id": "cpr-quickhacks",
+  "title": "CPR Quickhacks",
+  "description": "Quickhacks individuales y automatizados para Cyberpunk RED / Edgerunners Mission Kit.",
+  "version": "0.1.5",
+  "url": "https://github.com/davidkan1996/cpr-quickhacks",
+  "manifest": "https://github.com/davidkan1996/cpr-quickhacks/releases/latest/download/module.json",
+  "download": "https://github.com/davidkan1996/cpr-quickhacks/releases/download/v0.1.5/cpr-quickhacks.zip",
+  "authors": [{ "name": "David & Codex" }],
+  "compatibility": { "minimum": "12", "verified": "12", "maximum": "12" },
+  "relationships": {
+    "systems": [{ "id": "cyberpunk-red-core", "type": "system", "compatibility": { "minimum": "0.92.4" } }]
+  },
+  "esmodules": ["scripts/main.js"],
+  "styles": ["styles/quickhacks.css"],
+  "languages": [
+    { "lang": "es", "name": "Español", "path": "lang/es.json" },
+    { "lang": "en", "name": "English", "path": "lang/en.json" }
+  ]
+}

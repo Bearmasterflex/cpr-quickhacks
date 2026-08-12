@@ -1,0 +1,7 @@
+{
+  "name": "cpr-quickhacks",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "node --test", "quality": "node --check scripts/main.js && node --check scripts/quickhacks.js && node --test" }
+}

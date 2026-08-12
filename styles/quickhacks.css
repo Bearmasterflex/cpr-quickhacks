@@ -1,0 +1,11 @@
+.cpr-qh-dialog { display: grid; gap: .65rem; }
+.cpr-qh-header { display: flex; justify-content: space-between; gap: .5rem; align-items: center; }
+.cpr-qh-connection-actions { display: flex; gap: .35rem; }
+.cpr-qh-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .4rem; }
+.cpr-qh-tier { grid-column: 1 / -1; margin: .35rem 0 0; padding-bottom: .2rem; border-bottom: 1px solid var(--color-border-light-2); }
+.cpr-qh-action { min-height: 2.5rem; text-align: left; }
+.cpr-qh-action[disabled] { opacity: .45; cursor: not-allowed; }
+.cpr-qh-meta { display: block; opacity: .75; font-size: .8em; }
+.cpr-qh-card { border-left: 4px solid #16a085; padding: .5rem .7rem; }
+.cpr-qh-card.failure { border-left-color: #b33939; }
+.cpr-qh-card h3 { margin: 0 0 .35rem; }
