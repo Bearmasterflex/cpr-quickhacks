@@ -9,7 +9,8 @@ export const QUICKHACKS = Object.freeze({
   synapseBurnout: { tier: 3, dv: 10, name: "Synapse Burnout", description: "3d6 de daño; ignora y no ablaciona armadura.", effect: "directDamage", formula: "3d6" },
   puppet: { tier: 4, dv: 12, name: "Puppet", description: "El atacante controla el siguiente turno del objetivo.", duration: 1, effect: "controlTurn" },
   shardEjection: { tier: 4, dv: 12, name: "Shard Ejection", description: "Expulsa forzadamente un chipware instalado.", effect: "ejectChipware" },
-  systemReset: { tier: 4, dv: 12, name: "System Reset", description: "Inconsciente y prone durante 60 segundos o hasta recibir daño.", duration: 20, effect: "unconscious" }
+  systemReset: { tier: 4, dv: 12, name: "System Reset", description: "Inconsciente y prone durante 60 segundos o hasta recibir daño.", duration: 20, effect: "unconscious" },
+  testQuickhack: { tier: 1, dv: 10, name: "Test Quickhack", description: "Test Description", duration: 10, effect: "Test" }
 });
 
 export const TIER_NAMES = Object.freeze(["", "Simple", "Standard", "Difficult", "Advanced"]);
